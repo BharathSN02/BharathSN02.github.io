@@ -1,7 +1,7 @@
 /* TEAM */
-    Sreyas A S -- Software Engineer
-    Site: https://sreyas-a-s.github.io/
-    Contact: sreyasas25@gmail.com
+    Bharath Sn -- QA Engineer
+    Site: https://BharathSN02.github.io/
+    Contact: bhara95@gmail.com
     Location: Trivandrum, Kerala, India
 
 /* THANKS */
@@ -9,6 +9,4 @@
 
 /* SITE */
     Last update: 2026/06/06
-    Standards: HTML5, CSS3, JavaScript
-    Components: Laravel, PHP, Python, Bootstrap, jQuery
-    Software: VS Code, Git
+    Software: Selenium, Java, Eclipse, TestNG, Power BI, Excel, Git
