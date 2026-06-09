@@ -1,7 +1,7 @@
 {
-  "name": "Sreyas A S | Software Engineer",
-  "short_name": "Sreyas Portfolio",
-  "description": "Professional Portfolio of Sreyas A S - Software Engineer",
+  "name": "Bharath Sn | QA Engineer",
+  "short_name": "Bharath Portfolio",
+  "description": "Professional Portfolio of Bharath SN - QA Engineer",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#0f0715",
@@ -13,7 +13,7 @@
       "type": "image/png"
     },
     {
-      "src": "assets/img/me/mee.png",
+      "src": "assets/img/me/Bharath.png",
       "sizes": "512x512",
       "type": "image/png"
     }
