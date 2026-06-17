@@ -1,0 +1,1751 @@
+<html
+        xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>Jira</title>
+<style type="text/css">
+table {
+    mso-displayed-decimal-separator:"\.";
+    mso-displayed-thousand-separator:"\,";
+}
+body
+{
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+
+</style>
+<META HTTP-EQUIV="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8">
+<!-- JRA-7598 - ensure fields (e.g. description) occupy only one cell - even fields containing newlines. -->
+<!--
+Vertical align all cells to the top, in order to align all issue rows of issuetable to the top,
+since Excel does not use or save the css files it is hardcoded here.
+-->
+<style>
+@page
+{
+mso-page-orientation:landscape;
+margin:.25in .25in .5in .25in;
+mso-header-margin:.5in;
+mso-footer-margin:.25in;
+mso-footer-data:"&R&P of &N";
+mso-horizontal-page-align:center;
+mso-vertical-page-align:center;
+}
+
+td.issuekey,
+td.issuetype,
+td.status {
+    mso-style-parent: "";
+    mso-number-format: \@;
+    text-align: left;
+}
+br
+{
+    mso-data-placement:same-cell;
+}
+
+td
+{
+    vertical-align: top;
+}
+</style>
+
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>general_report</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+
+<table border="1">
+    <tr bgcolor="#205081" height="30">
+        <td colspan="11">
+            <img src="https://anjanarameshsr2001.atlassian.net/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Jira">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="11">
+            <a href="https://anjanarameshsr2001.atlassian.net/issues/?jql=project+%3D+PRSBUG+ORDER+BY+key+ASC%2C+status+DESC%2C+cf%5B10019%5D+ASC">Jira</a>
+        </td>
+    </tr>
+    <tr>
+                <td colspan="11">
+            Displaying <strong>57</strong> issues at <strong>16/Jun/26 6:11 PM</strong>.
+        </td>
+    </tr>
+</table>
+
+
+
+
+                                        <table id="issuetable" class="aui " border="1" cellpadding="3" cellspacing="1" width="100%">
+                        <thead>
+        <tr class="rowHeader">
+            
+                                                            <th class="colHeaderLink headerrow-issuetype" data-id="issuetype">
+                                                        Issue Type
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-issuekey" data-id="issuekey">
+                                                        Key
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-summary" data-id="summary">
+                                                        Summary
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-assignee" data-id="assignee">
+                                                        Assignee
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-reporter" data-id="reporter">
+                                                        Reporter
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-priority" data-id="priority">
+                                                        Priority
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-status" data-id="status">
+                                                        Status
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-resolution" data-id="resolution">
+                                                        Resolution
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-created" data-id="created">
+                                                        Created
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-updated" data-id="updated">
+                                                        Updated
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-duedate" data-id="duedate">
+                                                        Due date
+                                                    </th>
+                                                                    </tr>
+    </thead>
+    <tbody>
+                    
+
+                <tr id="issuerow10726" rel="10726" data-issuekey="PRSBUG-1" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-1" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-1">PRSBUG-1</a>
+</td>
+                                            <td class="summary"><p>
+                Forgot password button in the home page is not working
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           Highest
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Not an Error&lt;/span&gt;">Not an Error</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 20/Apr/26 3:19 PM </td>
+                                            <td class="updated"> 24/Apr/26 3:16 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10727" rel="10727" data-issuekey="PRSBUG-2" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-2" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-2">PRSBUG-2</a>
+</td>
+                                            <td class="summary"><p>
+                Remember me functionality not working
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Not an Error&lt;/span&gt;">Not an Error</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 20/Apr/26 3:29 PM </td>
+                                            <td class="updated"> 24/Apr/26 3:16 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10728" rel="10728" data-issuekey="PRSBUG-3" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-3" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-3">PRSBUG-3</a>
+</td>
+                                            <td class="summary"><p>
+                Home page UI in Dark mode
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 20/Apr/26 3:43 PM </td>
+                                            <td class="updated"> 25/Apr/26 5:44 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10729" rel="10729" data-issuekey="PRSBUG-4" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-4" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-4">PRSBUG-4</a>
+</td>
+                                            <td class="summary"><p>
+                Dashboard UI/visibility in dark mode
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 20/Apr/26 3:49 PM </td>
+                                            <td class="updated"> 29/Apr/26 5:06 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10730" rel="10730" data-issuekey="PRSBUG-5" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-5" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-5">PRSBUG-5</a>
+</td>
+                                            <td class="summary"><p>
+                Filters in User Management options while in dark mode is not visible
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 20/Apr/26 4:09 PM </td>
+                                            <td class="updated"> 29/Apr/26 5:11 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10739" rel="10739" data-issuekey="PRSBUG-6" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-6" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-6">PRSBUG-6</a>
+</td>
+                                            <td class="summary"><p>
+                Invalid name, symbols and numbers are accepted in add sales manager
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 20/Apr/26 4:38 PM </td>
+                                            <td class="updated"> 30/Apr/26 12:02 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10741" rel="10741" data-issuekey="PRSBUG-7" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-7" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-7">PRSBUG-7</a>
+</td>
+                                            <td class="summary"><p>
+                Full numbers are accepted in top level domain in email section - Add Sales Manager
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 20/Apr/26 5:12 PM </td>
+                                            <td class="updated"> 29/Apr/26 5:11 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10743" rel="10743" data-issuekey="PRSBUG-8" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-8" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-8">PRSBUG-8</a>
+</td>
+                                            <td class="summary"><p>
+                Weak password is accepted in add sales managers
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 20/Apr/26 5:36 PM </td>
+                                            <td class="updated"> 30/Apr/26 12:04 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10746" rel="10746" data-issuekey="PRSBUG-9" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-9" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-9">PRSBUG-9</a>
+</td>
+                                            <td class="summary"><p>
+                Contact number starting with 0 is accepted in add sales manager
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 20/Apr/26 5:55 PM </td>
+                                            <td class="updated"> 29/Apr/26 6:41 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10748" rel="10748" data-issuekey="PRSBUG-10" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-10" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-10">PRSBUG-10</a>
+</td>
+                                            <td class="summary"><p>
+                Blank address field is accepted in add sales manager
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 20/Apr/26 6:00 PM </td>
+                                            <td class="updated"> 29/Apr/26 6:41 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10781" rel="10781" data-issuekey="PRSBUG-11" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-11" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-11">PRSBUG-11</a>
+</td>
+                                            <td class="summary"><p>
+                No option to enter or update Pincode in Sales Managers field
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 21/Apr/26 10:48 AM </td>
+                                            <td class="updated"> 29/Apr/26 6:42 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10782" rel="10782" data-issuekey="PRSBUG-12" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-12" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-12">PRSBUG-12</a>
+</td>
+                                            <td class="summary"><p>
+                Action button view mode in Sales manager field visibility issue in dark mode
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 21/Apr/26 10:58 AM </td>
+                                            <td class="updated"> 25/Apr/26 6:19 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10783" rel="10783" data-issuekey="PRSBUG-13" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-13" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-13">PRSBUG-13</a>
+</td>
+                                            <td class="summary"><p>
+                Errors in Add Distributor field
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 21/Apr/26 11:36 AM </td>
+                                            <td class="updated"> 29/Apr/26 5:09 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10784" rel="10784" data-issuekey="PRSBUG-14" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-14" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-14">PRSBUG-14</a>
+</td>
+                                            <td class="summary"><p>
+                User Management - Distributors section Filter visibility issue in dark mode
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 21/Apr/26 11:41 AM </td>
+                                            <td class="updated"> 25/Apr/26 6:19 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10786" rel="10786" data-issuekey="PRSBUG-16" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-16" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-16">PRSBUG-16</a>
+</td>
+                                            <td class="summary"><p>
+                Address is not visible in dark mode while in view
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 21/Apr/26 12:06 PM </td>
+                                            <td class="updated"> 25/Apr/26 6:20 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10787" rel="10787" data-issuekey="PRSBUG-17" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-17" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-17">PRSBUG-17</a>
+</td>
+                                            <td class="summary"><p>
+                User Management - Field Staff Visibility issues in dark mode
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 21/Apr/26 12:24 PM </td>
+                                            <td class="updated"> 29/Apr/26 6:43 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10788" rel="10788" data-issuekey="PRSBUG-18" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-18" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-18">PRSBUG-18</a>
+</td>
+                                            <td class="summary"><p>
+                Number of data is not displayed in Field Staff and Retailers section in User management
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Not an Error&lt;/span&gt;">Not an Error</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 21/Apr/26 12:36 PM </td>
+                                            <td class="updated"> 28/Apr/26 1:25 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10789" rel="10789" data-issuekey="PRSBUG-19" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-19" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-19">PRSBUG-19</a>
+</td>
+                                            <td class="summary"><p>
+                User management - Retailers visibility issue in dark mode
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 21/Apr/26 12:45 PM </td>
+                                            <td class="updated"> 25/Apr/26 6:20 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10790" rel="10790" data-issuekey="PRSBUG-20" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-20" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-20">PRSBUG-20</a>
+</td>
+                                            <td class="summary"><p>
+                User management - Errors in Add Retailors
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 21/Apr/26 1:09 PM </td>
+                                            <td class="updated"> 29/Apr/26 6:44 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10791" rel="10791" data-issuekey="PRSBUG-21" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-21" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-21">PRSBUG-21</a>
+</td>
+                                            <td class="summary"><p>
+                Error in Field staff edit option
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 21/Apr/26 1:39 PM </td>
+                                            <td class="updated"> 29/Apr/26 6:45 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10792" rel="10792" data-issuekey="PRSBUG-22" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-22" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-22">PRSBUG-22</a>
+</td>
+                                            <td class="summary"><p>
+                Error in Retailers table and edit section
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 21/Apr/26 1:44 PM </td>
+                                            <td class="updated"> 29/Apr/26 6:46 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10826" rel="10826" data-issuekey="PRSBUG-23" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-23" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-23">PRSBUG-23</a>
+</td>
+                                            <td class="summary"><p>
+                Order creation is stuck at processing - logged in as Distributor 
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 22/Apr/26 1:04 PM </td>
+                                            <td class="updated"> 23/Apr/26 11:20 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10827" rel="10827" data-issuekey="PRSBUG-24" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-24" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-24">PRSBUG-24</a>
+</td>
+                                            <td class="summary"><p>
+                As Super admin - Some roles are active but no button shows in the corresponding logins
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Not an Error&lt;/span&gt;">Not an Error</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 22/Apr/26 1:11 PM </td>
+                                            <td class="updated"> 28/Apr/26 2:50 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10828" rel="10828" data-issuekey="PRSBUG-25" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-25" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-25">PRSBUG-25</a>
+</td>
+                                            <td class="summary"><p>
+                Approval orders loads with Processing filter as default
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Not an Error&lt;/span&gt;">Not an Error</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 22/Apr/26 1:16 PM </td>
+                                            <td class="updated"> 24/Apr/26 3:09 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10829" rel="10829" data-issuekey="PRSBUG-26" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-26" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-26">PRSBUG-26</a>
+</td>
+                                            <td class="summary"><p>
+                Browser window resize overlaps text, filters and search bar
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="resolution">    <em>Unresolved</em>
+</td>
+                                            <td class="created"> 22/Apr/26 1:21 PM </td>
+                                            <td class="updated"> 23/Apr/26 11:20 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10830" rel="10830" data-issuekey="PRSBUG-27" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-27" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-27">PRSBUG-27</a>
+</td>
+                                            <td class="summary"><p>
+                Browser resizing (small) introduces a new Search icon near Dark mode button
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="resolution">    <em>Unresolved</em>
+</td>
+                                            <td class="created"> 22/Apr/26 1:28 PM </td>
+                                            <td class="updated"> 23/Apr/26 11:20 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10831" rel="10831" data-issuekey="PRSBUG-28" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-28" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-28">PRSBUG-28</a>
+</td>
+                                            <td class="summary"><p>
+                Font and size miss match in order approval - retailers table
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 22/Apr/26 1:43 PM </td>
+                                            <td class="updated"> 29/Apr/26 5:10 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10832" rel="10832" data-issuekey="PRSBUG-29" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-29" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-29">PRSBUG-29</a>
+</td>
+                                            <td class="summary"><p>
+                Dashboard Distributor KPI View button highlight color missmatch
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 22/Apr/26 2:59 PM </td>
+                                            <td class="updated"> 29/Apr/26 5:09 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10865" rel="10865" data-issuekey="PRSBUG-30" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-30" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-30">PRSBUG-30</a>
+</td>
+                                            <td class="summary"><p>
+                Order Approval payment filter dark theme mismatch
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 22/Apr/26 3:40 PM </td>
+                                            <td class="updated"> 29/Apr/26 5:10 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10898" rel="10898" data-issuekey="PRSBUG-31" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-31" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-31">PRSBUG-31</a>
+</td>
+                                            <td class="summary"><p>
+                Able to add product with unavailable category as retailer
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 22/Apr/26 6:09 PM </td>
+                                            <td class="updated"> 27/Apr/26 10:03 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10964" rel="10964" data-issuekey="PRSBUG-33" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-33" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-33">PRSBUG-33</a>
+</td>
+                                            <td class="summary"><p>
+                Filters in User Management options while in dark mode is not visible
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 23/Apr/26 12:08 PM </td>
+                                            <td class="updated"> 27/Apr/26 10:52 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10965" rel="10965" data-issuekey="PRSBUG-34" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-34" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-34">PRSBUG-34</a>
+</td>
+                                            <td class="summary"><p>
+                Filters in User Management options while in dark mode is not visible
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 23/Apr/26 12:10 PM </td>
+                                            <td class="updated"> 27/Apr/26 10:37 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10967" rel="10967" data-issuekey="PRSBUG-36" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-36" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-36">PRSBUG-36</a>
+</td>
+                                            <td class="summary"><p>
+                Dashboard Distributor KPI View button highlight color missmatch
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 23/Apr/26 12:28 PM </td>
+                                            <td class="updated"> 30/Apr/26 12:09 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10968" rel="10968" data-issuekey="PRSBUG-37" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-37" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-37">PRSBUG-37</a>
+</td>
+                                            <td class="summary"><p>
+                Dashboard Distributor KPI View button highlight color missmatch
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 23/Apr/26 12:28 PM </td>
+                                            <td class="updated"> 30/Apr/26 12:08 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11001" rel="11001" data-issuekey="PRSBUG-38" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-38" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-38">PRSBUG-38</a>
+</td>
+                                            <td class="summary"><p>
+                Cannot see the order specification (S,M,L,XL) in Approval table
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 24/Apr/26 12:12 PM </td>
+                                            <td class="updated"> 29/Apr/26 5:10 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11002" rel="11002" data-issuekey="PRSBUG-39" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-39" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-39">PRSBUG-39</a>
+</td>
+                                            <td class="summary"><p>
+                Duplicate invoice is accepted by admin
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           Highest
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-yellow jira-issue-status-lozenge-indeterminate aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;In Progress&lt;/span&gt;">In Progress</span>    </td>
+                                            <td class="resolution">    <em>Unresolved</em>
+</td>
+                                            <td class="created"> 24/Apr/26 12:18 PM </td>
+                                            <td class="updated"> 25/Apr/26 3:46 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11003" rel="11003" data-issuekey="PRSBUG-40" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-40" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-40">PRSBUG-40</a>
+</td>
+                                            <td class="summary"><p>
+                Convert the approved box in order approval table to green
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 24/Apr/26 12:26 PM </td>
+                                            <td class="updated"> 29/Apr/26 5:11 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11004" rel="11004" data-issuekey="PRSBUG-41" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-41" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-41">PRSBUG-41</a>
+</td>
+                                            <td class="summary"><p>
+                Stock update error in distributor
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 24/Apr/26 12:33 PM </td>
+                                            <td class="updated"> 30/Apr/26 12:06 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11005" rel="11005" data-issuekey="PRSBUG-42" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-42" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-42">PRSBUG-42</a>
+</td>
+                                            <td class="summary"><p>
+                403 Forbidden error while checking the uploaded invoice 
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Not an Error&lt;/span&gt;">Not an Error</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 24/Apr/26 12:44 PM </td>
+                                            <td class="updated"> 25/Apr/26 10:58 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11006" rel="11006" data-issuekey="PRSBUG-43" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-43" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-43">PRSBUG-43</a>
+</td>
+                                            <td class="summary"><p>
+                AI invoice Number recognition not working in admin order approval
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-yellow jira-issue-status-lozenge-indeterminate aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;In Progress&lt;/span&gt;">In Progress</span>    </td>
+                                            <td class="resolution">    <em>Unresolved</em>
+</td>
+                                            <td class="created"> 24/Apr/26 12:49 PM </td>
+                                            <td class="updated"> 25/Apr/26 3:46 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11007" rel="11007" data-issuekey="PRSBUG-44" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-44" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-44">PRSBUG-44</a>
+</td>
+                                            <td class="summary"><p>
+                Incorrect time for the ordered product
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 24/Apr/26 12:55 PM </td>
+                                            <td class="updated"> 30/Apr/26 11:59 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11008" rel="11008" data-issuekey="PRSBUG-45" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-45" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-45">PRSBUG-45</a>
+</td>
+                                            <td class="summary"><p>
+                Reason for rejection not visible for Distributors
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 24/Apr/26 1:05 PM </td>
+                                            <td class="updated"> 27/Apr/26 10:36 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11009" rel="11009" data-issuekey="PRSBUG-46" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-46" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-46">PRSBUG-46</a>
+</td>
+                                            <td class="summary"><p>
+                Filter Glitch - Gets automatically changerd 
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 24/Apr/26 1:13 PM </td>
+                                            <td class="updated"> 30/Apr/26 12:10 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11010" rel="11010" data-issuekey="PRSBUG-47" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-47" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-47">PRSBUG-47</a>
+</td>
+                                            <td class="summary"><p>
+                Search bar responds to all columns values
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Not an Error&lt;/span&gt;">Not an Error</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 24/Apr/26 1:18 PM </td>
+                                            <td class="updated"> 28/Apr/26 11:31 AM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11080" rel="11080" data-issuekey="PRSBUG-48" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-48" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-48">PRSBUG-48</a>
+</td>
+                                            <td class="summary"><p>
+                Distributor details not available in View mode - order details
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 27/Apr/26 11:02 AM </td>
+                                            <td class="updated"> 29/Apr/26 6:47 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11081" rel="11081" data-issuekey="PRSBUG-49" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-49" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-49">PRSBUG-49</a>
+</td>
+                                            <td class="summary"><p>
+                Order approval warning message error
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 27/Apr/26 11:47 AM </td>
+                                            <td class="updated"> 30/Apr/26 12:12 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11082" rel="11082" data-issuekey="PRSBUG-50" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-50" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-50">PRSBUG-50</a>
+</td>
+                                            <td class="summary"><p>
+                Inactive retailer able to make order
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 27/Apr/26 11:55 AM </td>
+                                            <td class="updated"> 30/Apr/26 12:13 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11083" rel="11083" data-issuekey="PRSBUG-51" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-51" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-51">PRSBUG-51</a>
+</td>
+                                            <td class="summary"><p>
+                Retailer able to add products exceeding stock
+    </p>
+</td>
+                                            <td class="assignee">            Govind p
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 27/Apr/26 12:40 PM </td>
+                                            <td class="updated"> 27/Apr/26 1:35 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11084" rel="11084" data-issuekey="PRSBUG-52" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-52" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-52">PRSBUG-52</a>
+</td>
+                                            <td class="summary"><p>
+                Home page Text not fully visible as retailer and field staff
+    </p>
+</td>
+                                            <td class="assignee">            Govind p
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 27/Apr/26 12:42 PM </td>
+                                            <td class="updated"> 28/Apr/26 4:29 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11085" rel="11085" data-issuekey="PRSBUG-53" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-53" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-53">PRSBUG-53</a>
+</td>
+                                            <td class="summary"><p>
+                Retailer is able to login without Sales manager approval in mobile app
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 27/Apr/26 12:45 PM </td>
+                                            <td class="updated"> 28/Apr/26 4:28 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11086" rel="11086" data-issuekey="PRSBUG-54" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-54" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-54">PRSBUG-54</a>
+</td>
+                                            <td class="summary"><p>
+                Loyalty points view mode UI - Filter transaction bar repeating
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 27/Apr/26 1:04 PM </td>
+                                            <td class="updated"> 30/Apr/26 12:01 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11087" rel="11087" data-issuekey="PRSBUG-55" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-55" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-55">PRSBUG-55</a>
+</td>
+                                            <td class="summary"><p>
+                Dark theme close window button missmatch
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 27/Apr/26 1:13 PM </td>
+                                            <td class="updated"> 30/Apr/26 12:02 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11120" rel="11120" data-issuekey="PRSBUG-56" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-56" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-56">PRSBUG-56</a>
+</td>
+                                            <td class="summary"><p>
+                Login page gets 2 eye button at randum
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 29/Apr/26 6:19 PM </td>
+                                            <td class="updated"> 30/Apr/26 12:02 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11121" rel="11121" data-issuekey="PRSBUG-57" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-57" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-57">PRSBUG-57</a>
+</td>
+                                            <td class="summary"><p>
+                As admin- Can not edit the field staff and retailer details
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 29/Apr/26 6:21 PM </td>
+                                            <td class="updated"> 30/Apr/26 12:02 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11122" rel="11122" data-issuekey="PRSBUG-58" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-58" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-58">PRSBUG-58</a>
+</td>
+                                            <td class="summary"><p>
+                As Distributor- Retailer order approval doesn&#39;t work
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 29/Apr/26 6:24 PM </td>
+                                            <td class="updated"> 30/Apr/26 12:06 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11155" rel="11155" data-issuekey="PRSBUG-59" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-59" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-59">PRSBUG-59</a>
+</td>
+                                            <td class="summary"><p>
+                As Admin- Report page UI error in dark mode
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Fixed&lt;/span&gt;">Fixed</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 30/Apr/26 11:36 AM </td>
+                                            <td class="updated"> 30/Apr/26 2:30 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+
+
+                <tr id="issuerow11156" rel="11156" data-issuekey="PRSBUG-60" class="issuerow">
+                                            <td class="issuetype">    Bug
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PRSBUG-60" href="https://anjanarameshsr2001.atlassian.net/browse/PRSBUG-60">PRSBUG-60</a>
+</td>
+                                            <td class="summary"><p>
+                Retailers my order and view order details incorrect
+    </p>
+</td>
+                                            <td class="assignee">            prajulvp007
+    </td>
+                                            <td class="reporter">            Bharath SN
+    </td>
+                                            <td class="priority">           High
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 30/Apr/26 11:40 AM </td>
+                                            <td class="updated"> 30/Apr/26 6:06 PM </td>
+                                            <td class="duedate">    &nbsp;
+</td>
+                    </tr>
+        </tbody>
+    </table>
+    <div class="end-of-stable-message"></div>
+            <table border="1" >
+<tr>
+    <td bgcolor="#dddddd" colspan="11"><font size="1">
+        Generated at Tue Jun 16 12:41:15 UTC 2026 by Bharath SN using Jira 1001.0.0-SNAPSHOT#100291-rev:6617cb5f5c8ebc57da84ed8a4b40f48d8d36f5a1.
+    </font></td>
+</tr>
+</table>
+
+</body>
+</html>
